@@ -1,0 +1,51 @@
+#carrusel {
+	border: solid;
+    border-color: white;
+	width:600px;
+	height:420px;
+	margin: auto;	
+}
+
+.imagenes {
+	width:590px;
+	height:300px;
+	float: left;
+	overflow: hidden;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+.barraimagenes {
+	width:590px;
+	height:150px;
+}
+
+.barraimagenes2 {
+    width: 300px;
+	height:150px;
+	margin: auto;
+    display: inline-block;
+    position: relative;
+    left: 35%;
+    margin-top: 2.5%;
+}
+
+#foto1,#foto2,#foto3 {
+	width:600px;
+	height:100%;
+}
+
+#imagen1,#imagen2,#imagen3 {
+	width: 50px;
+	height: 50px;
+	vertical-align: center;
+	margin-left: 3px;
+	float: left;
+	margin-right: 6px;
+	margin-top: 10px;
+}
+
+#titulo {
+    color: white;
+    text-align: center;
+}
